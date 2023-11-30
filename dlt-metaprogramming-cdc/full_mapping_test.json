@@ -1,0 +1,7 @@
+{
+  "storage_path": "abfss://ucroot@xxxx.dfs.core.windows.net/managed_storage/",
+  "table_list" : [
+    {"table_name": "pfj_test", "scd_key": ["id","name"], "sequence_by_col" : ["operation_date"]},
+    {"table_name": "pfj_test_2", "scd_key": ["id","name"], "sequence_by_col" : ["operation_date"]}
+]
+}
